@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="selectfield" style="display: block;">
+        <select id="selector">
+            <option disabled>Выберите поле</option>
+            <option selected value="3">3*3</option>
+            <option value="4">4*4</option>
+            <option value="5">5*5</option>
+        </select>
+        <p><input type="button" id="knopka" onclick="gamestart()" value="Начать игру"></p>
+    </form>
+    <div class="area-wrapper">
+    </div>
+    <div><input type="button" id="rest" style="display:none;" onclick="location.reload()" value="Restart game"></div>
+</body>
+
+</html>
